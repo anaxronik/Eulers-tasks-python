@@ -16,6 +16,6 @@ def is_divide_on_range_without_remain(n, div_max = n_max):
 while True:
     print('Try num = ', x)
     if is_divide_on_range_without_remain(x):
-        print('Most litle num is ', x)
+        print('Most smallest num is ', x)
         break
     x+=1
