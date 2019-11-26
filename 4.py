@@ -15,8 +15,8 @@ def is_palindrome(n):
 n_min = 100
 n_max = 999
 palindrome_arr = []
-for i in range(n_min,n_max+1):
-    for k in range(n_min,n_max+1):
+for i in range(n_min, n_max+1):
+    for k in range(n_min, n_max+1):
         if is_palindrome(i*k):
             palindrome_arr.append(i*k)
 
