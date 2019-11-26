@@ -47,7 +47,7 @@ num = '''73167176531330624919225119674426574742355349194934
 
 number_of_multiplication = 13
 
-num = num.strip('\t\n\s')
+num = num.strip()
 # print(num, len(num))
 nums = []
 for char in str(num):
